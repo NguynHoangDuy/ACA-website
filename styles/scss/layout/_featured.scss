@@ -1,0 +1,28 @@
+.featured {
+  background: #f1f6ff;
+  padding: 47px 0;
+  &-item {
+    width: calc((100% / 3) - 20px);
+    padding: 60px 0;
+    border-radius: 8px;
+    background: #142c54;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &-group {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-desc {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    margin-right: 20px;
+  }
+}
