@@ -36,4 +36,10 @@
       line-height: 20px;
     }
   }
+
+  @media screen and (max-width: 991px) {
+    &-main {
+      padding: 30px;
+    }
+  }
 }

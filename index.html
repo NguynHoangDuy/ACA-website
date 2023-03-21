@@ -13,9 +13,32 @@
     <div class="wrapper">
       <header class="header">
         <div class="topbar">
-          <div class="container d-flex mx-auto justify-content-end p-2">
+          <div
+            class="container d-md-flex d-none mx-auto justify-content-end p-2"
+          >
             <a class="topbar-item d-block mx-4" href="#">Search</a>
             <a class="topbar-item d-block mx-4" href="#">Contact Us</a>
+          </div>
+        </div>
+
+        <div class="topbar-mobile">
+          <div
+            class="container d-md-none d-flex align-items-center justify-content-between p-2"
+          >
+            <a href="" class="topbar-mobile-donate">
+              <img
+                src="./images/donate-icon.png"
+                alt=""
+                class="topbar-mobile-donate-icon"
+              />
+            </a>
+            <a href="" class="topbar-mobile-menu">
+              <img
+                src="./images/menu-icon.png"
+                alt=""
+                class="topbar-mobile-menu-icon"
+              />
+            </a>
           </div>
         </div>
         <nav class="header-menu">
@@ -30,22 +53,22 @@
             <ul
               class="header-menu-link d-flex justify-content-end align-items-center mb-0"
             >
-              <li class="header-menu-item mr-xl-5 mr-lg-4">
+              <li class="header-menu-item">
                 <a class="text-light" href="index.html">Home</a>
               </li>
-              <li class="header-menu-item mr-xl-5 mr-lg-4">
+              <li class="header-menu-item">
                 <a class="text-light" href="#">Learn</a>
               </li>
-              <li class="header-menu-item mr-xl-5 mr-lg-4">
+              <li class="header-menu-item">
                 <a class="text-light" href="#">About Us</a>
               </li>
-              <li class="header-menu-item mr-xl-5 mr-lg-4">
+              <li class="header-menu-item">
                 <a class="text-light" href="#">Final a School</a>
               </li>
-              <li class="header-menu-item mr-xl-5 mr-lg-4">
+              <li class="header-menu-item">
                 <a class="text-light" href="#">Start a School</a>
               </li>
-              <li class="header-menu-item mr-xl-5 mr-lg-4">
+              <li class="header-menu-item">
                 <a class="text-light" href="#">Careers</a>
               </li>
               <a
@@ -62,23 +85,33 @@
 
       <div class="banner position-relative">
         <div class="container">
-          <img src="./images/header-banner.png" alt="" class="banner-img" />
-          <h3 class="banner-title">
-            Prepare your child to <br />
-            <span>flourish</span> in life
-          </h3>
-          <p class="banner-desc">
-            Ascent Classical Academies train the minds and improve the hearts of
-            young people through a classical, content-rich education in the
-            liberal arts and sciences, with instruction in the principles of
-            moral character and civic virtue in an orderly and disciplined
-            environment.
-          </p>
-
-          <button class="button d-flex align-items-center">
-            <span class="pr-2">APPLY</span>
-            <img src="./images/icon-arrow.png" alt="icon-arrow" />
-          </button>
+          <img
+            src="./images/header-banner.png"
+            alt=""
+            class="banner-img d-md-flex d-none"
+          />
+          <div class="banner-content">
+            <h3 class="banner-title">
+              Prepare your child to <br />
+              <span>flourish</span> in life
+            </h3>
+            <p class="banner-desc">
+              Ascent Classical Academies train the minds and improve the hearts
+              of young people through a classical, content-rich education in the
+              liberal arts and sciences, with instruction in the principles of
+              moral character and civic virtue in an orderly and disciplined
+              environment.
+            </p>
+            <button class="button d-flex align-items-center">
+              <span class="pr-2">APPLY</span>
+              <img src="./images/icon-arrow.png" alt="icon-arrow" />
+            </button>
+          </div>
+          <img
+            src="./images/banner-header-mobile.png"
+            alt=""
+            class="banner-img d-md-none d-block"
+          />
         </div>
       </div>
 
@@ -164,9 +197,7 @@
       </div>
 
       <div class="newsleter">
-        <div
-          class="container d-flex align-items-center justify-content-between"
-        >
+        <div class="container newsleter-main">
           <div class="newsleter-content">
             <p>Sign up for our newsletter to get the latest</p>
             <p>updates about Ascent Classical Academies</p>

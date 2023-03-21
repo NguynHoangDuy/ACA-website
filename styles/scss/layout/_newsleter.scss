@@ -1,9 +1,13 @@
 .newsleter {
   padding: 50px 0 10px;
   background: #f1f6ff;
-
+  &-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
   &-content {
-    max-width: 500px;
+    max-width: 450px;
 
     & > p {
       color: #142c54;
@@ -43,5 +47,36 @@
     right: 0;
     top: 50%;
     transform: translateY(-50%);
+  }
+
+  @media screen and (max-width: 991px) {
+    padding: 30px 20px;
+    &-main {
+      flex-wrap: wrap;
+    }
+    &-content {
+      & > p {
+        font-size: 25px;
+      }
+    }
+    &-form {
+      margin-top: 20px;
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    padding: 60px 20px;
+    &-input {
+      border-radius: 8px 8px 0 0;
+      padding-right: 20px;
+    }
+    &-btn {
+      width: 100%;
+      top: 100%;
+      left: 0;
+      transform: translateY(0);
+      border-radius: 0 0 8px 8px;
+    }
   }
 }
