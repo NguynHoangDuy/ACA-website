@@ -11776,6 +11776,38 @@ body {
   font-family: Baskerville;
   src: url("../../fonts/Baskerville/Baskerville-01.ttf");
 }
+.footer-main {
+  padding: 50px 0 30px;
+  border-top: 1px solid rgba(100, 100, 100, 0.5);
+}
+.footer-content {
+  width: 50%;
+}
+.footer-content > p {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+}
+.footer-menu-link {
+  color: #142c54;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.footer-absolute {
+  padding: 15px 0;
+  background: #f1f6ff;
+}
+.footer-absolute p {
+  color: #142c54;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
 .topbar {
   background: #0e2244;
 }
@@ -11795,12 +11827,19 @@ body {
 }
 
 .banner {
-  background: linear-gradient(-89deg, rgba(247, 248, 250, 0), rgba(247, 248, 250, 0), rgba(20, 43, 84, 0.6431372549), rgba(20, 43, 84, 0.6431372549)), url("../../images/header-banner.png");
+  background: linear-gradient(-89deg, rgba(247, 248, 250, 0), rgba(247, 248, 250, 0), rgba(20, 43, 84, 0.6431372549), rgba(20, 43, 84, 0.6431372549));
   padding: 125px 0;
+}
+.banner-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 .banner-title {
   color: #ffffff;
-  font-family: "Baskerville";
   font-size: 70px;
   font-weight: 400;
   line-height: 73px;
@@ -11856,10 +11895,9 @@ body {
   justify-content: space-between;
 }
 .info-item {
-  width: calc(33.3333333333% - 35px);
+  width: calc(33.3333333333% - 20px);
 }
 .info-title {
-  font-family: "Baskerville";
   color: #142c54;
   font-size: 30px;
   font-weight: 400;
@@ -11880,13 +11918,13 @@ body {
   text-align: center;
   border-radius: 8px;
   background: #142c54;
-  padding: 35px 45px 55px;
+  padding: 35px 30px 55px;
 }
 .info-purpose-title {
   color: #ffcd00;
-  font-family: "Baskerville";
   font-size: 30px;
-  font-weight: 400;
+  font-family: "Open Sans";
+  font-weight: 300;
   line-height: 73px;
   text-align: center;
 }
@@ -11897,6 +11935,73 @@ body {
   font-weight: 400;
   line-height: 30px;
   text-align: center;
+}
+
+.newsleter {
+  padding: 50px 0 10px;
+  background: #f1f6ff;
+}
+.newsleter-content {
+  max-width: 500px;
+}
+.newsleter-content > p {
+  color: #142c54;
+  font-family: "Baskerville-SemiBold";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.newsleter-form {
+  width: 50%;
+  position: relative;
+}
+.newsleter-input {
+  width: 100%;
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 16px 200px 16px 22px;
+  border: 0;
+  box-shadow: 0px 12px 14px -10px rgba(0, 0, 0, 0.16);
+  outline: none;
+}
+.newsleter-btn {
+  padding: 16px 43px;
+  color: #ffcd00;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  background: #142c54;
+  border: 0;
+  border-radius: 0 8px 8px 0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.color-second {
+  color: #142c54;
+}
+
+.donate-content {
+  padding: 65px 0;
+}
+.donate-main > p {
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 27px;
+}
+.donate-title-text {
+  color: #142c54;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.donate-title-button {
+  padding: 15px 40px !important;
+  border-radius: 8px;
 }
 
 .button {

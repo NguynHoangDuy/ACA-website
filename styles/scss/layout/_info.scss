@@ -7,11 +7,10 @@
   }
 
   &-item {
-    width: calc((100% / 3) - 35px);
+    width: calc((100% / 3) - 20px);
   }
 
   &-title {
-    font-family: "Baskerville";
     color: #142c54;
     font-size: 30px;
     font-weight: 400;
@@ -33,12 +32,12 @@
     text-align: center;
     border-radius: 8px;
     background: #142c54;
-    padding: 35px 45px 55px;
+    padding: 35px 30px 55px;
     &-title {
       color: #ffcd00;
-      font-family: "Baskerville";
       font-size: 30px;
-      font-weight: 400;
+      font-family: "Open Sans";
+      font-weight: 300;
       line-height: 73px;
       text-align: center;
     }
