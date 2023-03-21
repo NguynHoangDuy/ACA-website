@@ -58,6 +58,7 @@
 
     &-icon {
       margin-bottom: 40px;
+      width: 36px;
     }
 
     &-content {
@@ -82,7 +83,7 @@
     }
 
     &-btn {
-      box-shadow: 0;
+      box-shadow: unset;
       outline: 0;
       border-radius: 0 8px 8px 0;
       position: absolute;
@@ -155,6 +156,71 @@
 
     &-form {
       margin-top: 10px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    &-content {
+      & > .container {
+        padding: 0;
+      }
+    }
+    &-main {
+      padding: 0 20px;
+      text-align: center;
+      & > p {
+        font-size: 15px;
+      }
+    }
+    .f-18 {
+      font-size: 14px !important;
+    }
+    &-title {
+      flex-wrap: wrap;
+      &-text {
+        width: 100%;
+        max-width: unset;
+        margin-bottom: 10px;
+        font-size: 25px;
+      }
+
+      &-button {
+        width: 100%;
+        font-size: 18px;
+      }
+    }
+    &-detail {
+      flex-wrap: wrap;
+      &-item {
+        width: 100%;
+        text-align: start;
+      }
+
+      &-title {
+        width: 100% !important;
+        font-size: 16px;
+      }
+
+      &-desc {
+        font-size: 15px;
+      }
+    }
+
+    &-form {
+      padding: 0;
+      &-group {
+        flex-wrap: wrap;
+      }
+      &-item {
+        width: 100%;
+      }
+    }
+    &-search {
+      padding: 0 20px;
+
+      &-btn {
+        right: 20px;
+      }
     }
   }
 }

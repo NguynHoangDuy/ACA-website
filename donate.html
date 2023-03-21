@@ -13,9 +13,32 @@
     <div class="wrapper">
       <header class="header">
         <div class="topbar">
-          <div class="container d-flex mx-auto justify-content-end p-2">
+          <div
+            class="container d-md-flex d-none mx-auto justify-content-end p-2"
+          >
             <a class="topbar-item d-block mx-4" href="#">Search</a>
             <a class="topbar-item d-block mx-4" href="#">Contact Us</a>
+          </div>
+        </div>
+
+        <div class="topbar-mobile">
+          <div
+            class="container d-md-none d-flex align-items-center justify-content-between p-2"
+          >
+            <a href="donate.html" class="topbar-mobile-donate">
+              <img
+                src="./images/donate-icon.png"
+                alt=""
+                class="topbar-mobile-donate-icon"
+              />
+            </a>
+            <a href="" class="topbar-mobile-menu">
+              <img
+                src="./images/menu-icon.png"
+                alt=""
+                class="topbar-mobile-menu-icon"
+              />
+            </a>
           </div>
         </div>
         <nav class="header-menu">
@@ -62,12 +85,23 @@
 
       <div class="banner position-relative">
         <div class="container">
-          <img src="./images/banner-donate.png" alt="" class="banner-img" />
-          <h3 class="banner-title">
-            Looking to
-            <span>Support</span> <br />
-            The Ascent Foundation?
-          </h3>
+          <img
+            src="./images/banner-donate.png"
+            alt=""
+            class="banner-img d-md-flex d-none"
+          />
+          <div class="banner-content">
+            <h3 class="banner-title">
+              Looking to
+              <span>Support</span> <br />
+              The Ascent Foundation?
+            </h3>
+          </div>
+          <img
+            src="./images/donate-banner-mobile.png"
+            alt=""
+            class="banner-img d-md-none d-block"
+          />
         </div>
       </div>
 
@@ -305,7 +339,7 @@
       </div>
       <footer>
         <div class="footer-main">
-          <div class="container d-flex justify-content-between">
+          <div class="container d-flex justify-content-between flex-wrap">
             <div class="footer-info d-flex align-items-center">
               <a href="" class="footer-logo mr-2">
                 <img src="./images/brand-primary-logo.png" alt="" srcset="" />
