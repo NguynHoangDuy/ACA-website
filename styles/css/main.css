@@ -11950,12 +11950,14 @@ body {
 }
 .banner-title {
   color: #ffffff;
+  font-family: "Baskerville-Bold";
   font-size: 70px;
   font-weight: 400;
   line-height: 73px;
 }
 .banner-title > span {
   color: #ffcd00;
+  font-family: "Baskerville-BoldItalic";
 }
 .banner-desc {
   width: 664px;
@@ -12093,8 +12095,9 @@ body {
 .info-title {
   color: #142c54;
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 73px;
+  font-family: "Baskerville";
 }
 .info-author {
   display: flex;
@@ -12116,8 +12119,8 @@ body {
 .info-purpose-title {
   color: #ffcd00;
   font-size: 30px;
-  font-family: "Open Sans";
-  font-weight: 300;
+  font-family: "Baskerville";
+  font-weight: 600;
   line-height: 73px;
   text-align: center;
 }
@@ -12193,9 +12196,9 @@ body {
 }
 .newsleter-content > p {
   color: #142c54;
-  font-family: "Baskerville-SemiBold";
+  font-family: "Baskerville";
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 30px;
 }
 .newsleter-form {
@@ -12277,8 +12280,8 @@ body {
 .donate-title-text {
   color: #142c54;
   font-size: 30px;
-  font-weight: 400;
-  line-height: 24px;
+  font-weight: 600;
+  font-family: "Baskerville";
   line-height: 32px;
   max-width: 60%;
 }
@@ -12346,8 +12349,10 @@ body {
 }
 .donate-form-title {
   color: #142c54;
-  font-weight: 400;
+  font-weight: 600;
+  font-size: 30px;
   line-height: 35px;
+  font-family: "Baskerville";
 }
 .donate-form-label {
   display: block;

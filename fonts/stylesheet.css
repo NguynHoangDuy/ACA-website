@@ -8,6 +8,18 @@
   font-family: "Baskerville-SemiBold";
   src: url("./Baskerville/Baskerville-SemiBold-05.ttf");
 }
+@font-face {
+  font-family: "Baskerville-Bold";
+  src: url("./Baskerville/Baskerville-Bold-02.ttf");
+}
+@font-face {
+  font-family: "Baskerville";
+  src: url("./Baskerville/Baskerville-01.ttf");
+}
+@font-face {
+  font-family: "Baskerville-BoldItalic";
+  src: url("./Baskerville/Baskerville-BoldItalic-04.ttf");
+}
 
 @font-face {
   font-family: "Open Sans";
