@@ -11991,6 +11991,9 @@ body {
     padding: 0;
     background: none;
   }
+  .banner .mb-font-38 {
+    font-size: 30px;
+  }
   .banner > .container {
     padding: 0;
   }

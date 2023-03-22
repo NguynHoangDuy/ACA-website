@@ -60,6 +60,9 @@
 
 @media screen and (max-width: 767px) {
   .banner {
+    .mb-font-38 {
+      font-size: 30px;
+    }
     padding: 0;
     & > .container {
       padding: 0;
