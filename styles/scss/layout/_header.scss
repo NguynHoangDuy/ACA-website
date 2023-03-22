@@ -47,6 +47,26 @@
 }
 
 @media screen and (max-width: 767px) {
+  .button-closed {
+    width: 30px;
+    height: 30px;
+    border: 0;
+    outline: none;
+    background: transparent;
+    position: absolute;
+    // margin-top: 20px;
+    top: 20px;
+    right: 20px;
+    & > img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .topbar-mobile-menu {
+    border: 0;
+    background: transparent;
+  }
   .header {
     &-logo {
       z-index: 1;
@@ -55,7 +75,27 @@
     }
     &-menu {
       &-link {
-        display: none !important;
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.589);
+        top: 0;
+        left: 0;
+        flex-direction: column;
+        align-items: center !important;
+        justify-content: center !important;
+        padding: 0;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in-out;
+        &.active {
+          transition: transform 0.3s ease-in-out;
+          transform: translateX(0);
+        }
+      }
+
+      &-item {
+        margin-bottom: 20px;
       }
     }
   }
